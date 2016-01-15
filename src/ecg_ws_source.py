@@ -10,6 +10,7 @@ FILE_NAME = 'mgh001.csv'
 
 current_milli_time = lambda: int(round(time.time() * 1000))
 
+# Change the path
 with open('/home/janaka/IdeaProjects/ecg_ws_source/data/mgh001.csv', 'rt') as f:
     reader = csv.reader(f)
     count = 0
